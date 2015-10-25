@@ -275,7 +275,7 @@ Partial Class Form1
         Me.Controls.Add(Me.grpSimulation)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "King's Jewels Simulation"
         Me.grpSimulation.ResumeLayout(False)
         Me.grpSimulation.PerformLayout()
         CType(Me.nudIterations, System.ComponentModel.ISupportInitialize).EndInit()
