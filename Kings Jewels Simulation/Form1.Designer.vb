@@ -71,16 +71,19 @@ Partial Class Form1
         Me.grpSimulation.Controls.Add(Me.Label1)
         Me.grpSimulation.Controls.Add(Me.lvJewelBag)
         Me.grpSimulation.Controls.Add(Me.btnSimulate)
-        Me.grpSimulation.Location = New System.Drawing.Point(12, 33)
+        Me.grpSimulation.Location = New System.Drawing.Point(12, 32)
+        Me.grpSimulation.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.grpSimulation.Name = "grpSimulation"
-        Me.grpSimulation.Size = New System.Drawing.Size(576, 554)
+        Me.grpSimulation.Padding = New System.Windows.Forms.Padding(2, 3, 2, 3)
+        Me.grpSimulation.Size = New System.Drawing.Size(576, 553)
         Me.grpSimulation.TabIndex = 15
         Me.grpSimulation.TabStop = False
         Me.grpSimulation.Text = "Simulation"
         '
         'nudIterations
         '
-        Me.nudIterations.Location = New System.Drawing.Point(229, 255)
+        Me.nudIterations.Location = New System.Drawing.Point(229, 254)
+        Me.nudIterations.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.nudIterations.Maximum = New Decimal(New Integer() {1000, 0, 0, 0})
         Me.nudIterations.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
         Me.nudIterations.Name = "nudIterations"
@@ -90,7 +93,8 @@ Partial Class Form1
         '
         'Label7
         '
-        Me.Label7.Location = New System.Drawing.Point(159, 255)
+        Me.Label7.Location = New System.Drawing.Point(158, 254)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(53, 32)
         Me.Label7.TabIndex = 23
@@ -98,18 +102,20 @@ Partial Class Form1
         '
         'btnCopy
         '
-        Me.btnCopy.Location = New System.Drawing.Point(142, 516)
+        Me.btnCopy.Location = New System.Drawing.Point(142, 515)
+        Me.btnCopy.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.btnCopy.Name = "btnCopy"
-        Me.btnCopy.Size = New System.Drawing.Size(117, 23)
+        Me.btnCopy.Size = New System.Drawing.Size(116, 23)
         Me.btnCopy.TabIndex = 29
         Me.btnCopy.Text = "Copy Results"
         Me.btnCopy.UseVisualStyleBackColor = True
         '
         'btnClearResults
         '
-        Me.btnClearResults.Location = New System.Drawing.Point(6, 516)
+        Me.btnClearResults.Location = New System.Drawing.Point(6, 515)
+        Me.btnClearResults.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.btnClearResults.Name = "btnClearResults"
-        Me.btnClearResults.Size = New System.Drawing.Size(117, 23)
+        Me.btnClearResults.Size = New System.Drawing.Size(116, 23)
         Me.btnClearResults.TabIndex = 28
         Me.btnClearResults.Text = "Clear Results"
         Me.btnClearResults.UseVisualStyleBackColor = True
@@ -117,7 +123,8 @@ Partial Class Form1
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(452, 44)
+        Me.Label6.Location = New System.Drawing.Point(452, 45)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(101, 13)
         Me.Label6.TabIndex = 19
@@ -126,7 +133,8 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(452, 69)
+        Me.Label5.Location = New System.Drawing.Point(452, 70)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(39, 13)
         Me.Label5.TabIndex = 20
@@ -136,6 +144,7 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(6, 296)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(42, 13)
         Me.Label4.TabIndex = 26
@@ -145,8 +154,9 @@ Partial Class Form1
         '
         Me.lvResults.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.colHowMany, Me.colResultsID, Me.colResultsValue, Me.colResultsHighest})
         Me.lvResults.Location = New System.Drawing.Point(6, 315)
+        Me.lvResults.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.lvResults.Name = "lvResults"
-        Me.lvResults.Size = New System.Drawing.Size(253, 194)
+        Me.lvResults.Size = New System.Drawing.Size(252, 193)
         Me.lvResults.TabIndex = 27
         Me.lvResults.UseCompatibleStateImageBehavior = False
         Me.lvResults.View = System.Windows.Forms.View.Details
@@ -172,7 +182,8 @@ Partial Class Form1
         '
         'Label3
         '
-        Me.Label3.Location = New System.Drawing.Point(6, 255)
+        Me.Label3.Location = New System.Drawing.Point(6, 254)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(66, 32)
         Me.Label3.TabIndex = 21
@@ -180,7 +191,8 @@ Partial Class Form1
         '
         'nudLookCount
         '
-        Me.nudLookCount.Location = New System.Drawing.Point(78, 255)
+        Me.nudLookCount.Location = New System.Drawing.Point(78, 254)
+        Me.nudLookCount.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.nudLookCount.Maximum = New Decimal(New Integer() {9, 0, 0, 0})
         Me.nudLookCount.Name = "nudLookCount"
         Me.nudLookCount.Size = New System.Drawing.Size(55, 20)
@@ -190,6 +202,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(229, 25)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(67, 13)
         Me.Label2.TabIndex = 17
@@ -198,9 +211,10 @@ Partial Class Form1
         'lvSeenJewels
         '
         Me.lvSeenJewels.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.colSeenJewelsID, Me.colSeenJewelsValue, Me.colSeenJewelsHighest})
-        Me.lvSeenJewels.Location = New System.Drawing.Point(229, 44)
+        Me.lvSeenJewels.Location = New System.Drawing.Point(229, 45)
+        Me.lvSeenJewels.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.lvSeenJewels.Name = "lvSeenJewels"
-        Me.lvSeenJewels.Size = New System.Drawing.Size(217, 205)
+        Me.lvSeenJewels.Size = New System.Drawing.Size(216, 205)
         Me.lvSeenJewels.TabIndex = 18
         Me.lvSeenJewels.UseCompatibleStateImageBehavior = False
         Me.lvSeenJewels.View = System.Windows.Forms.View.Details
@@ -221,6 +235,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(6, 25)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(56, 13)
         Me.Label1.TabIndex = 15
@@ -229,9 +244,10 @@ Partial Class Form1
         'lvJewelBag
         '
         Me.lvJewelBag.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.colJewelID, Me.colJewelValue, Me.colHighest})
-        Me.lvJewelBag.Location = New System.Drawing.Point(6, 44)
+        Me.lvJewelBag.Location = New System.Drawing.Point(6, 45)
+        Me.lvJewelBag.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.lvJewelBag.Name = "lvJewelBag"
-        Me.lvJewelBag.Size = New System.Drawing.Size(217, 207)
+        Me.lvJewelBag.Size = New System.Drawing.Size(216, 206)
         Me.lvJewelBag.TabIndex = 16
         Me.lvJewelBag.UseCompatibleStateImageBehavior = False
         Me.lvJewelBag.View = System.Windows.Forms.View.Details
@@ -250,7 +266,8 @@ Partial Class Form1
         '
         'btnSimulate
         '
-        Me.btnSimulate.Location = New System.Drawing.Point(312, 255)
+        Me.btnSimulate.Location = New System.Drawing.Point(312, 254)
+        Me.btnSimulate.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.btnSimulate.Name = "btnSimulate"
         Me.btnSimulate.Size = New System.Drawing.Size(134, 23)
         Me.btnSimulate.TabIndex = 25
@@ -261,7 +278,8 @@ Partial Class Form1
         '
         Me.lblProgress.AutoSize = True
         Me.lblProgress.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblProgress.Location = New System.Drawing.Point(14, 9)
+        Me.lblProgress.Location = New System.Drawing.Point(14, 8)
+        Me.lblProgress.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblProgress.Name = "lblProgress"
         Me.lblProgress.Size = New System.Drawing.Size(0, 20)
         Me.lblProgress.TabIndex = 16
@@ -273,6 +291,8 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(600, 599)
         Me.Controls.Add(Me.lblProgress)
         Me.Controls.Add(Me.grpSimulation)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "King's Jewels Simulation"
