@@ -101,9 +101,7 @@
                 lvSeenJewels.Items.Add(lip)
             Next
 
-
             Me.Label5.Text = HighestSeen
-
 
             'Display the result
             Dim liv As New ListViewItem
