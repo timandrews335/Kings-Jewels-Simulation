@@ -74,6 +74,7 @@
 
     Private Sub btnSimulate_Click(sender As Object, e As EventArgs) Handles btnSimulate.Click
         Me.grpSimulation.Enabled = False
+        Dim StartTime As DateTime = DateTime.Now
         For i As Integer = 1 To Me.nudIterations.Value
 
             'Simulate
@@ -115,7 +116,8 @@
             Me.lblProgress.Text = i.ToString & " of " & Me.nudIterations.Value.ToString
             Application.DoEvents()
         Next
-        If Me.nudIterations.Value > 100 Then MessageBox.Show("Finished")
+        Dim EndTime As DateTime = DateTime.Now
+        If Me.nudIterations.Value > 100 Then MessageBox.Show("Finished, it took " & DateDiff(DateInterval.Second, StartTime, EndTime).ToString("#,#") & " seconds")
         Me.grpSimulation.Enabled = True
     End Sub
 
